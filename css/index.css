@@ -618,6 +618,14 @@ body{
     color: rgb(255, 255, 255,.8);
 }
 
+.header-content .firstline .logo-image {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .hidden-text {
     opacity: 0;
     animation: fadeInText 0.1s ease-in-out 0.1s forwards;
