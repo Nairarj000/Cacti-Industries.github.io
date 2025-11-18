@@ -245,7 +245,7 @@ body{
     width: 100%;
     z-index: 15;
     padding: 0;
-    background:#101010;
+    background:#000000;
     overflow: visible;
     display: flex;
     align-items: center;
@@ -555,10 +555,10 @@ body{
     transform: rotate(-30deg);
 }
 #navigation-bar img{
-    height: 30px;
+    height: 25px;
     position: absolute;
     ;
-    top: 20%;
+    top: 25%;
     left: 25px;
     opacity: 0.7;
     transition: all .4s ease;
