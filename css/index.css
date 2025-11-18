@@ -246,6 +246,7 @@ body{
     z-index: 15;
     padding: 0;
     background:#000000;
+    opacity: 0.9;
     overflow: visible;
     display: flex;
     align-items: center;
