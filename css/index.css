@@ -250,7 +250,7 @@ body{
     overflow: visible;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 #navigation-bar .navigation-links {
     display: flex;
@@ -273,7 +273,7 @@ body{
     font-weight:250;
     letter-spacing: 0.5px;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-    pointer-events: none;
+    pointer-events: auto;
     white-space: nowrap;
     z-index: 16;
 }
@@ -4327,3 +4327,4 @@ Monitor
     }
 
 }
+
