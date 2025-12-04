@@ -13,7 +13,6 @@
 
 <body>
 
-<!-- TOP NAVIGATION BAR -->
 <div id="navigation-bar">
     <a href="https://www.cacti-industries.com/">
         <img src="images/cacti_logo_image_white_w_trans_bkgrd_v2.png" 
@@ -25,15 +24,13 @@
         <li><a href="mailto:contact-us@cacti-industries.com">Contact Us</a></li>
     </ul>
 </div>
-
-<!-- HAMBURGER MENU -->
 <div class="menubar" id="menubar">
     <span class="first-span"></span>
     <span class="second-span"></span>
     <span class="third-span"></span>
 </div>
-
-<!-- MOBILE NAV MENU -->
+<!--menubar-->
+<!-- Mobile Navigation Menu -->
 <div class="mobile-nav" id="mobile-nav">
     <div class="mobile-nav-content">
         <div class="mobile-nav-header">
@@ -43,71 +40,80 @@
                 <span class="close-second"></span>
             </div>
         </div>
-
         <ul class="mobile-nav-links">
+            <!-- NEW TEAM LINK IN MOBILE MENU -->
             <li><a href="team.html">Team</a></li>
             <li><a href="mailto:contact-us@cacti-industries.com">Contact Us</a></li>
+            <!-- <li><a href="https://scholar.google.com/citations?user=A0RqAUgAAAAJ&hl=en&oi=sra">Publications</a></li>
+            <li><a href="https://1drv.ms/w/c/573fe21775d93be1/EdEFwUW9jwpAnPF5gp_8Zo0BMBXjoU_v5qz4fY5dTWffcg?e=dsuyWW">Curriculum Vitae</a></li>
+            <li><a href="about.html">Bio</a></li> -->
         </ul>
     </div>
+</div>    
+
+<div style="padding-top:120px; text-align:center; color:white; font-family:poppins;">
+    <h1>Meet the Team</h1>
+    <p style="opacity:0.7;">The people behind Cacti Industries</p>
+
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; margin-top:40px; gap:40px;">
+        
+        <!-- Example team member card -->
+        <div style="width:250px; background:#1d1d1d; padding:20px; border-radius:12px; text-align:center;">
+            <img src="images/Frank-Regal.jpg" 
+                 alt="Frank Regal" 
+                 style="width:120px; height:120px; border-radius:25%; margin-bottom:15px; object-fit:cover;">
+            <h3 style="color:white; margin-bottom:5px;">Frank Regal</h3>
+            <p style="color:rgba(255,255,255,0.7); font-size:14px;">CEO and Co-Founder</p>
+            <p style="color:rgba(255,255,255,0.6); font-size:13px; line-height:1.4;">
+                Frank is a Ph.D. candidate at UT Austin specializing in human–robot interaction. 
+                His research focuses on enabling intuitive, AR-based communication between people and 
+                robots operating in complex environments.
+            </p>
+        </div>
+        <div style="width:250px; background:#1d1d1d; padding:20px; border-radius:12px; text-align:center;">
+            <img src="images/Rohan-Polavaram.jpg" 
+                 alt="Rohan Polavaram" 
+                 style="width:120px; height:120px; border-radius:25%; margin-bottom:15px; object-fit:cover;">
+            <h3 style="color:white; margin-bottom:5px;">Rohan Polavaram</h3>
+            <p style="color:rgba(255,255,255,0.7); font-size:14px;">CTO and Co-Founder</p>
+            <p style="color:rgba(255,255,255,0.6); font-size:13px; line-height:1.4;">
+                Rohan holds a B.S. in Electrical and Computer Engineering from UT Austin. He is 
+                currently working on mixed-reality interfaces and human–robot teaming in challenging 
+                environments.
+            </p>
+        </div>
+        <div style="width:250px; background:#1d1d1d; padding:20px; border-radius:12px; text-align:center;">
+            <img src="images/Arjun-Nair.jpg" 
+                 alt="Arjun Nair" 
+                 style="width:120px; height:120px; border-radius:25%; margin-bottom:15px; object-fit:cover;">
+            <h3 style="color:white; margin-bottom:5px;">Arjun Nair</h3>
+            <p style="color:rgba(255,255,255,0.7); font-size:14px;">COO and Co-Founder</p>
+            <p style="color:rgba(255,255,255,0.6); font-size:13px; line-height:1.4;">
+                Arjun earned his B.S. in Electrical and Computer Engineering from UT Austin. He is now 
+                developing AR-driven control systems and scalable, intuitive multi-robot interaction 
+                frameworks.
+            </p>
+        </div>
+        <div style="width:250px; background:#1d1d1d; padding:20px; border-radius:12px; text-align:center;">
+            <img src="images/Ayan-Chaudhry.jpg" 
+                 alt="Ayan Chaudhry" 
+                 style="width:120px; height:120px; border-radius:25%; margin-bottom:15px; object-fit:cover;">
+            <h3 style="color:white; margin-bottom:5px;">Ayan Chaudhry</h3>
+            <p style="color:rgba(255,255,255,0.7); font-size:14px;">CAIO and Co-Founder</p>
+            <p style="color:rgba(255,255,255,0.6); font-size:13px; line-height:1.4;">
+                Ayan holds a B.S. in Electrical and Computer Engineering from UT Austin. He focuses on
+                creating HRI solutions that enhance collaborative autonomy in complex operational 
+                environments. 
+            </p>
+        </div>
+
+        <!-- Duplicate/add more as needed -->
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </div>
 
-<!-- TEAM PAGE CONTENT -->
-<div class="team-page">
 
-    <h1>Meet the Team</h1>
-    <p class="team-subtitle">The people behind Cacti Industries</p>
-
-    <div class="team-grid">
-
-        <!-- Frank -->
-        <div class="team-card">
-            <img src="images/Frank-Regal.jpg" alt="Frank Regal">
-            <h3>Frank Regal</h3>
-            <p class="team-card-role">CEO and Co-Founder</p>
-            <p class="team-card-desc">
-                Frank is a Ph.D. candidate at UT Austin specializing in human–robot interaction.
-                His research focuses on intuitive AR-based communication between people and robots.
-            </p>
-        </div>
-
-        <!-- Rohan -->
-        <div class="team-card">
-            <img src="images/Rohan-Polavaram.jpg" alt="Rohan Polavaram">
-            <h3>Rohan Polavaram</h3>
-            <p class="team-card-role">CTO and Co-Founder</p>
-            <p class="team-card-desc">
-                Rohan holds a B.S. in Electrical and Computer Engineering from UT Austin and works
-                on mixed-reality interfaces and human–robot teaming.
-            </p>
-        </div>
-
-        <!-- Arjun -->
-        <div class="team-card">
-            <img src="images/Arjun-Nair.jpg" alt="Arjun Nair">
-            <h3>Arjun Nair</h3>
-            <p class="team-card-role">COO and Co-Founder</p>
-            <p class="team-card-desc">
-                Arjun develops AR-driven control systems and scalable frameworks for multi-robot interaction.
-            </p>
-        </div>
-
-        <!-- Ayan -->
-        <div class="team-card">
-            <img src="images/Ayan-Chaudhry.jpg" alt="Ayan Chaudhry">
-            <h3>Ayan Chaudhry</h3>
-            <p class="team-card-role">CAIO and Co-Founder</p>
-            <p class="team-card-desc">
-                Ayan builds HRI solutions that enhance collaborative autonomy in complex environments.
-            </p>
-        </div>
-
-    </div> <!-- end team-grid -->
-
-</div> <!-- end team-page -->
-
-<!-- SCRIPTS -->
-<script src="js/jquery.min.js"></script>
-<script src="js/index.js"></script>
 
 </body>
 </html>
