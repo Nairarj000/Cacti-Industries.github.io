@@ -4326,8 +4326,53 @@ Monitor
         width: 10px;
         height: 10px;
     }
+    .team-card {
+        width: 260px;
+        background: rgba(20, 20, 20, 0.85);
+        backdrop-filter: blur(6px);
+        padding: 24px;
+        border-radius: 18px;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .team-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+    }
+    
+    .team-card img {
+        width: 130px;
+        height: 130px;
+        border-radius: 20px;
+        object-fit: cover;
+        margin-bottom: 16px;
+        border: 2px solid rgba(255,255,255,0.15);
+    }
+    
+    .team-card h3 {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 4px;
+        font-weight: 600;
+    }
+    
+    .team-card-role {
+        color: rgba(255,255,255,0.75);
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    
+    .team-card-desc {
+        color: rgba(255,255,255,0.65);
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
 
 }
+
 
 
 
