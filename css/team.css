@@ -26,9 +26,9 @@
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    justify-items: center;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    justify-content: center; /* centers the entire grid */
+    justify-items: center;    /* centers items inside grid cells */
     align-items: start;
     gap: 40px;
     width: 100%;
@@ -36,6 +36,7 @@
     margin: 0 auto;
     padding-bottom: 80px;
 }
+
 
 /* ========================================= */
 /*               CARD STRUCTURE              */
