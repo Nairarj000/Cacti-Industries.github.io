@@ -27,9 +27,13 @@
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    justify-items: center;      /* centers each card */
-    justify-content: center;    /* centers the final row */
+    justify-items: center;
+    justify-content: center;
+    align-items: start;
     gap: 40px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
     padding-bottom: 80px;
 }
 
