@@ -27,10 +27,11 @@
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 40px;
-    width: 100%;
-    max-width: 1400px;  /* keeps cards from stretching too wide */
-    margin: 0 auto;     /* centers the grid */
+    gap: 40px; 
+    justify-items: center;     
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
     padding: 0 20px 80px;
 }
 
